@@ -1,0 +1,16 @@
+eventrouter:
+  config:
+    logLevel: info
+  vcenter:
+    address: https://vcsa.jarvis.lab
+    username: veba-ro@jarvis.lab
+    password: 'VMware1!'
+    insecure: true
+  eventProcessor: knative
+  knative:
+    destination:
+      ref:
+        apiVersion: eventing.knative.dev/v1
+        kind: Broker
+        name: default
+        namespace: vmware-functions
