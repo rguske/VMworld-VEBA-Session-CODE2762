@@ -10,5 +10,5 @@ git clone git@github.com:rguske/VMworld-VEBA-Session-CODE2762.git && cd VMworld-
 
 ## Execute the demo-script
 
-Simply start the demo-script by executing `./knative_vmware_event_router_install.sh` and watch the progress with e.g. using `watch` or helpful tools like [k9s](https://github.com/derailed/k9s) or [Octant](https://github.com/vmware-tanzu/octant).
+Simply start the demo-script by executing `./knative_vmware_event_router_install.sh` and watch the progress by using `watch` or helpful tools like [k9s](https://github.com/derailed/k9s) or [Octant](https://github.com/vmware-tanzu/octant) for example.
 
