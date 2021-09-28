@@ -1,6 +1,6 @@
 # VMworld {code} Session CODE2762 - DIY Deployment of Event-Driven Automation in vSphere Environments
 
-This repository includes the demo script I used for my VMworld 2021 {code} session on project VMware Event Broker Appliance, in which I used this demo-script to automatically install the core componentes like e.g. Knative (Eventing and Serving) as well as the heart of project VEBA, the Event-Router.
+This repository includes the demo script I used for my VMworld 2021 {code} session on project VMware Event Broker Appliance, in which I used the `knative_vmware_event_router_install.sh` script to automatically install the core componentes like e.g. Knative (Eventing and Serving) as well as the heart of project VEBA, the Event-Router.
 
 ## Clone the repository (replace it with your name) and change into the cloned directory
 
