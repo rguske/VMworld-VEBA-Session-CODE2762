@@ -84,6 +84,15 @@ pe "kubectl create ns vmware-functions"
 # hide the evidence
 pe clear
 
+# hide the evidence
+pe clear
+
+# create namespace for function
+pe "kubectl create ns vmware-functions"
+
+# hide the evidence
+pe clear
+
 # create a broker in namespace vmware-functions
 pe "kubectl create -f - <<EOF
 apiVersion: eventing.knative.dev/v1
