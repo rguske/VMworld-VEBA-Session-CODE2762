@@ -2,6 +2,10 @@
 
 This repository includes the demo script I used for my VMworld 2021 {code} session on project VMware Event Broker Appliance, in which I used the `knative_vmware_event_router_install.sh` script to automatically install the core componentes like e.g. Knative (Eventing and Serving) as well as the heart of project VEBA, the Event-Router.
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ieUqfir5Oag/0.jpg)](https://www.youtube.com/watch?v=ieUqfir5Oag)
+
+
+
 ## CLI tools used with the script
 
 `kubectl` - [Install](https://kubernetes.io/docs/tasks/tools/)
